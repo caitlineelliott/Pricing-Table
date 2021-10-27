@@ -70,6 +70,8 @@ body {
     flex-direction: column;
     text-align: center;
     text-transform: uppercase;
+    width: 80vw;
+    margin: 15px 0;
 }
 
 .pricing-plan {
@@ -139,6 +141,12 @@ body {
 .pricing-button.is-featured:hover, .pricing-button.is-featured:focus {
     background-color: #269aff;
     color: white;
+}
+
+@media (min-width: 400px) and (max-width: 899px) {
+	.panel {
+   		margin: 50px 0;
+	}
 }
 
 @media (min-width: 900px) {
